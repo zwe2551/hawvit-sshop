@@ -1,0 +1,223 @@
+.body {
+    font-family: sans-serif;
+}
+.osezbf {
+    background-color: gray;
+}
+
+.mother {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    height: 150px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    border-bottom: solid 1px rgb(233, 230, 230);
+    z-index: 1;
+}
+
+.logo {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.logoimg {
+    width: 80px;
+    height: 80px;
+}
+
+.logocontainer {
+    width: 400px;
+    height: 150px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.dropdowncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown {
+    height: 50px;
+    width:700px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 30px;
+    border-radius: 14px;
+}
+
+.jebqsf {
+    font-size: 40px;
+    width: 300px;
+    font-weight: 900;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fav {
+    color: #7FFF00;
+}
+
+.Haw {
+    color:#203de2;
+}
+.store {
+    display: inline-block;
+    font-weight: 700;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dropdownff {
+    margin: 0px 15px;
+}
+
+.search {
+    color: white;
+    width: 150px;
+    font-family: "Audiowide", sans-serif;
+}  
+
+/**/
+
+.itembox {
+    background-color: rgb(65, 46, 46);
+    max-width:1020px;
+    display: flex;
+    border: 6px solid rgb(243, 78, 78);
+    flex-wrap: wrap;
+}
+
+.boxa {
+    width: 336px;
+    padding: 19px;
+}
+
+.boxb {
+    width: 336px;
+    padding: 19px;
+}
+
+.boxc {
+    width: 336px;
+    padding: 19px;
+}
+
+.gg {
+    margin-top: 20px;
+    width: 300px;
+    height: 650px;
+    border: 100px 100px;
+    background-color:rgb(249, 249, 252);
+    padding: 25px 25px 0px 25px;
+    border-radius: 10px;
+}
+
+.aa {
+    display: flex;
+}
+
+.carousel-item {
+    width: 120px;
+    height: 350px;
+}
+
+.d-block {
+    width: 100%;
+}
+
+.excla {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.discriptions {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.chit {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.good {
+    font-size: 40px;
+}
+
+.goodkyats {
+    font-size: 20px;
+}
+
+.kyats {
+    font-size: 25px;
+}
+
+.buy {
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.buybotton {
+    border-radius: 15px;
+    width: 70px;
+    border-color:black;
+    background-color: #ffffff;
+}
+
+.buytag {
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+.footer {
+    background-color: rgb(189, 186, 188);
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+@media (max-width:1020px) {
+        .menu {
+            height:250px;
+        }
+        .dropdowncontainer {
+            width: 100px;
+        }
+        .logoimg {
+            width: 60px;
+            height : 60px;
+            margin-right: 13px;
+        }
+        .jebqsf{
+            font-size : 35px;
+        }
+        .itembox {
+            justify-content: center;
+        }
+}
